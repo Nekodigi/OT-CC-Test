@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>モダンウェブサイト</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">MyWebsite</div>
+                <ul class="nav-menu">
+                    <li><a href="#home">ホーム</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">サービス</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="hero-title">ようこそ</h1>
+            <p class="hero-subtitle">モダンで美しいウェブサイトへ</p>
+            <button class="btn-primary">詳しく見る</button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>私たちについて</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>私たちは最新のウェブ技術を使用して、美しく機能的なウェブサイトを作成します。</p>
+                    <p>ユーザーエクスペリエンスを最優先に考え、レスポンシブデザインで全てのデバイスに対応します。</p>
+                </div>
+                <div class="about-image">
+                    <div class="placeholder-image">Image</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>サービス</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>デザイン</h3>
+                    <p>モダンで美しいデザインを提供します</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>開発</h3>
+                    <p>最新技術を使用した開発</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>レスポンシブ</h3>
+                    <p>全デバイス対応のデザイン</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>お問い合わせ</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="お名前" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="メールアドレス" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="メッセージ" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">送信</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
